@@ -1,0 +1,13 @@
+{
+    "name": "wdc/wdc_api",
+    "description": "sample api project to demonstrate PHP dev skills",
+
+    "require": {
+        "vlucas/phpdotenv": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
